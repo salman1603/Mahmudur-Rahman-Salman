@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className='pt-5 container pb-5'>
             <div className="row g-5 mb-5">
-                <div className="col-lg-6">
+                <div className="col-lg-6" data-aos="zoom-out-right" data-aos-duration="2000">
                     <h3>About Me</h3>
                     <div className="underline"></div>
                     <div className='pt-5 text-start lh-5'>
@@ -14,7 +14,7 @@ const About = () => {
                         <p>I always stay hungry to learn something new. Currently focused on expanding my knowledge about developing high performing websites and get hired.</p>
                     </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6" data-aos="zoom-out-left" data-aos-duration="2000">
                     <h3>Skills</h3>
                     <div className="underline"></div>
                     <div className="pt-5">

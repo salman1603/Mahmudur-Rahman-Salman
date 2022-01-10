@@ -1,32 +1,33 @@
 import React from 'react';
+import './Navigation.css'
 
 const Navigation = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid container">
-                    <a class="navbar-brand" href="www.google.com">Developer Salman</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg navbar-dark">
+                <div className="container-fluid container">
+                    <a className="navbar-brand brandName" href="www.google.com">Developer Salman</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="www.google.com">Home</a>
+                    <div className="collapse navbar-collapse" id="navbarTogglerDemo02" data-aos="fade-left" data-aos-duration="2000">
+                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <a className="nav-link text-light" aria-current="page" href="www.google.com">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="www.google.com">About</a>
+                            <li className="nav-item">
+                                <a className="nav-link text-light" href="www.google.com">About</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="www.google.com">Projects</a>
+                            <li className="nav-item">
+                                <a className="nav-link text-light" href="www.google.com">Projects</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="www.google.com">Contact</a>
+                            <li className="nav-item">
+                                <a className="nav-link text-light" href="www.google.com">Contact</a>
                             </li>
-                            <button className='btn btn-outline-light ms-2'>Resume</button>
-                            
+                            <button className='btn btn-outline-light ms-2 fw-bold'>Resume</button>
+
                         </ul>
-                        
+
                     </div>
                 </div>
             </nav>
