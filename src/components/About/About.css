@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,500;1,700&display=swap');
+
+.underline {
+    width: 30px;
+    height: 3px;
+    border: 2px solid DarkSlateGray;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
