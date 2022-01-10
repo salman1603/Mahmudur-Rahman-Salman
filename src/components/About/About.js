@@ -4,8 +4,8 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className='pt-5 container'>
-            <div className="row g-5">
+        <div className='pt-5 container pb-5'>
+            <div className="row g-5 mb-5">
                 <div className="col-lg-6">
                     <h3>About Me</h3>
                     <div className="underline"></div>

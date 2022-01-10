@@ -23,6 +23,7 @@ const Navigation = () => {
                             <li class="nav-item">
                                 <a class="nav-link" href="www.google.com">Contact</a>
                             </li>
+                            <button className='btn btn-outline-light ms-2'>Resume</button>
                             
                         </ul>
                         
