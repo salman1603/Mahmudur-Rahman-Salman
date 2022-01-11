@@ -74,7 +74,7 @@ const Hero = () => {
                             enable: true,
                             outMode: "bounce",
                             random: true,
-                            speed: 2,
+                            speed: 8,
                             straight: false,
                         },
                         number: {

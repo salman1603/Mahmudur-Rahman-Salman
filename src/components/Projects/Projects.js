@@ -35,7 +35,7 @@ const Projects = () => {
             <h3 className='text-center text-dark'>Projects</h3>
             <div className="underline"></div>
             <div className="row row-cols-1 row-cols-lg-3 g-4 mt-5 ">
-                <div className="col" data-aos="zoom-in" data-aos-duration="1500">
+                <div className="col" data-aos="zoom-in" data-aos-duration="1000">
                     <div className="card h-100">
                         <img src={seogram} className="card-img-top" alt="seoagency" />
                         <div className="card-body">
@@ -50,7 +50,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col" data-aos="zoom-in" data-aos-duration="1500">
+                <div className="col" data-aos="zoom-in" data-aos-duration="1000">
                     <div className="card h-100">
                         <img src={autowash} className="card-img-top" alt="carwash" />
                         <div className="card-body">
@@ -65,7 +65,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col" data-aos="zoom-in" data-aos-duration="1500">
+                <div className="col" data-aos="zoom-in" data-aos-duration="1000">
                     <div className="card h-100">
                         <img src={digigram} className="card-img-top" alt="..." />
                         <div className="card-body">
@@ -80,7 +80,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col" data-aos="zoom-in" data-aos-duration="1500">
+                <div className="col" data-aos="zoom-in" data-aos-duration="1000">
                     <div className="card h-100">
                         <img src={onlinedu} className="card-img-top" alt="onlineedu" />
                         <div className="card-body">
