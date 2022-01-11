@@ -116,7 +116,7 @@ const Hero = () => {
                         />
                     </span></h1>
                 </div>
-                <div class="col-lg-6" data-aos="zoom-in-up" data-aos-duration="3000">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="2000">
                     <img src={bg} alt="" />
                 </div>
             </div>
